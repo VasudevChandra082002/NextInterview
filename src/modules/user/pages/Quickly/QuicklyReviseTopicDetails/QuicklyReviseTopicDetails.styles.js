@@ -2,10 +2,14 @@ import styled from 'styled-components';
 import theme from '../../../../../theme/Theme';
 
 export const TopicContainer = styled.div`
-//   margin-left: 60px;
+  // margin-left: 60px;
   font-family: Arial, sans-serif;
   max-width: 100vw;
   padding: 40px 100px 40px 40px;
+
+  @media (max-width: 1024px) {
+    margin-left: 0px;
+  }
 `;
 
 export const TopicHeader = styled.div`
