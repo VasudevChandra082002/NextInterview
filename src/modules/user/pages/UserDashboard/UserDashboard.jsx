@@ -172,6 +172,7 @@ setModuleProgress(Number.parseFloat(progressPercentage.toFixed(2)));
       <UserDashboardWrapper>
         <div className="error-message">
           <p>{error}</p>
+          
           <button onClick={() => window.location.reload()}>Retry</button>
         </div>
       </UserDashboardWrapper>
